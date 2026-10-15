@@ -1,16 +1,27 @@
-# tasbih_getx
+# Tasbih Digital GetX (Modul 11)
 
-A new Flutter project.
+Aplikasi Tasbih Digital menggunakan Flutter dan **GetX** State Management dengan pola arsitektur **MVVM** (Model - View - ViewModel).
 
-## Getting Started
+## Fitur
+- State management reaktif menggunakan GetX (`Rx`, `.obs`, dan widget `Obx`)
+- Hitungan counter tasbih (maksimal 33)
+- Progress bar linier persentase hitungan
+- Tombol tap tasbih (fingerprint)
+- Tombol reset hitungan (floating action button)
 
-This project is a starting point for a Flutter application.
+## Struktur Folder
+```text
+lib/
+├── main.dart
+├── model/
+│   └── tasbih_model.dart
+├── view/
+│   └── home.dart
+└── viewmodel/
+    └── tasbih_controller.dart
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Mahasiswa
+- **Nama**: Muhammad Refki Andesta
+- **NIM**: 240605110232
+- **Mata Kuliah**: Praktikum Mobile Programming
